@@ -3,6 +3,8 @@ package saluda;
 import java.util.Scanner;
 
 public class Saluda {
+	
+	static String _nombre;
 
 	public static void main(String[] args) {
 		
