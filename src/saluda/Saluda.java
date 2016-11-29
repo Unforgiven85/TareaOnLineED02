@@ -23,8 +23,8 @@ public class Saluda {
 		
 		Scanner teclado = new Scanner(System.in);		
 		System.out.println("¿Cómo te llamas?");		
-		String nombre = teclado.nextLine();		
-		System.out.println("Hola " + nombre);
+		_nombre = teclado.nextLine();		
+		System.out.println("Hola " + _nombre);
 		teclado.close();
 		
 	}
