@@ -4,8 +4,16 @@ import java.util.Scanner;
 
 public class Saluda {
 	
-	static String _nombre;
-
+	private static String _nombre;
+	
+	public void set_Nombre(String nombre) {
+		_nombre = nombre;
+	}
+	
+	public String get_Nombre() {
+		return _nombre;
+	}
+	
 	public static void main(String[] args) {
 		
 		Scanner teclado = new Scanner(System.in);		
