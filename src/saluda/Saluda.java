@@ -14,6 +14,11 @@ public class Saluda {
 		return _nombre;
 	}
 	
+	public void pideNombre() {
+		System.out.println("¿Cómo te llamas?");
+		System.out.println("Hola " + _nombre);
+	}
+	
 	public static void main(String[] args) {
 		
 		Scanner teclado = new Scanner(System.in);		
